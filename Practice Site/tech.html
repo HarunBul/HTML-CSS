@@ -10,7 +10,6 @@
     <header>
         <p>
             <a href="./index.html">Home</a> | 
-            <a href="./resume.html">Resume</a> | 
             <a href="#">Tech</a> | 
             <a href="./research.html">Research</a>
         </p>
@@ -18,28 +17,99 @@
     <main>
         <h1>Tech</h1>
 
-        <p>I graduated from the University of Pennsylvania with a Master in Computing and Information Technology in August 2021. Since February of the same year, I have worked as an Associate Software Engineer at Savvas, an EdTech company with offices in Boston and Phoenix. During my studies, I also worked as a TA for two classes.</p>
+        <p>I graduated from the University of Pennsylvania with a Master in Computing and Information Technology in August 2021. Since February of the same year, I have worked as an Associate Software Engineer at Savvas, an EdTech company with offices in Boston and Phoenix. During my studies, I also worked as a TA for two classes (see below).</p>
+
+        <p>As a career changer, I'm very grateful to be in the industry that I am. It's hard to single out one thing that I love about working in tech, but if I had to sum it up, I would highlight "three C's": collaboration, creativity, and craftsmanship. I love working as part of a team with a common purpose, crafting quality code using hard-earned skills, and ultimately creating something that can make people's everyday lives better. I also just genuinely love learning and am happy to be in a field where I can always challenge myself intellectually and pick up something new.</p>
+
+        <hr>
 
         <h2>Coursework:</h2>
-        <ul>
-            <li>591: Introduction to Software Development</li>
-            <li>592: Mathematical Foundations of Computer Science</li>
-            <li>593: Introduction to Computer Systems</li>
-            <li>594: Data Structures & Software Design</li>
-            <li>595: Computer Systems Programming</li>
-            <li>596: Algorithms & Computation</li>
-            <li>521: Artificial Intelligence</li>
-            <li>542: Statistics for Data Science (Applied Machine Learning)</li>
-            <li>547: Software Analysis</li>
-            <li>550: Databases & Information Systems</li>
-        </ul>
+        <dl>
+            <dt>591: Introduction to Software Development</dt>
+                <dd>Basic to intermediate Java. Made a trivia game for Amazon Alexa (group project).</dd>
+            <dt>592: Mathematical Foundations of Computer Science</dt>
+                <dd>Discrete math (counting, probability, graphs) and proof-writing.</dd>
+            <dt>593: Introduction to Computer Systems</dt>
+                <dd>Computer architecture and C programming. Later worked as a TA.</dd>
+            <dt>594: Data Structures & Software Design</dt>
+                <dd>Foundational data structures in Java and core software design principles.</dd>
+            <dt>595: Computer Systems Programming</dt>
+                <dd>Operating systems, Linux command line, and more advanced C programming. Later worked as a TA.</dd>
+            <dt>596: Algorithms & Computation</dt>
+                <dd>Language-agnostic algorithm development and more complex proof-writing.</dd>
+            <dt>521: Artificial Intelligence</dt>
+                <dd>Python programming and survey of major subfields of AI.</dd>
+            <dt>542: Statistics for Data Science (Applied Machine Learning)</dt>
+                <dd>Statistical learning and use of common ML Python libraries, e.g. NumPy, pandas, scikit, etc.</dd>
+            <dt>547: Software Analysis</dt>
+                <dd>C++ programming and the theory behind professional software testing.</dd>
+            <dt>550: Databases & Information Systems</dt>
+                <dd>Query languages, database theory, and basic web development. Made a website allowing users to find new music based on data from Billboard and Spotify (group project).</dd>
+        </dl>
         
+        <hr>
+
         <h2>Languages:</h2>
+
         <ul>
-            <li>C</li>
-            <li>Java</li>
-            <li>JavaScript</li>
-            <li>Python</li>
+            <li>C / C++ (intermediate)</li>
+            <li>Java (fluent)</li>
+            <li>JavaScript (learning)</li>
+            <li>Python (fluent)</li>
+        </ul>
+
+        <p>Right now I'm also actively learning HTML, CSS, JavaScript, and everything related to full stack web development!</p>
+
+        <h2>Form</h2>
+
+        <p>Here's a form, because I know they're a very important part of HTML5:</p>
+
+        <form action="#" method="get">
+            <fieldset>
+                <legend>
+                    Your Details:
+                </legend>
+                <label>
+                    Name:
+                    <input type="text" name="name" size="30" maxlength="100">
+                </label>
+                <br>
+                <label>
+                    E-mail:
+                    <input type="email" name=e-mail size="30" maxlength="100">
+                </label>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>
+                    Your Preferences:
+                </legend>
+                <label>
+                    Which of these programming languages do you use?
+                    <br>
+                    <input type="checkbox" name="languages" value="c">C
+                    <input type="checkbox" name="languages" value="cpp">C++
+                    <input type="checkbox" name="languages" value="java">Java
+                    <input type="checkbox" name="languages" value="javascript">JavaScript
+                    <input type="checkbox" name="languages" value="python">Python
+                </label>
+                <br>
+                <label>
+                    What is your favorite programming language?
+                    <select>
+                        <option value="c">C</option>
+                        <option value="cpp">C++</option>
+                        <option value="java">Java</option>
+                        <option value="javascript">JavaScript</option>
+                        <option value="python">Python</option>
+                        <option value="other">Something else</option>
+                    </select>
+                </label>
+                <br>
+                <input type="submit" value="Submit preferences">
+            </fieldset>
+        </form>
+
         </ul>
     </main>
 </body>
