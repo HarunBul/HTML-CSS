@@ -1,0 +1,45 @@
+/* Stylesheet for book chapter exercise */
+
+body {
+    background-color: #F2E8B3;
+    color: #565759;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.25rem;
+}
+hr {
+    color: #9FA3A6;
+}
+h1 {
+    border: 10px solid #F2B705;
+}
+blockquote {
+    /* background-color: #F2D479; */
+    border: 10px dotted #F2D479;
+    font-weight: bold;
+}
+blockquote cite {
+    color: #9FA3A6;
+    font-weight: bold;
+}
+ol {
+    border: 10px dotted #F2D479;
+}
+p {
+    line-height: 1.5rem;
+}
+img {
+    border: 5px dotted #9FA3A6;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+a:link {
+    font-weight: 300;
+    color: #565759;
+}
+a:visited {
+    font-weight: 300;
+    text-decoration: none;
+    color: #9FA3A6;
+}
