@@ -1,5 +1,24 @@
 /* Stylesheet for book chapter exercise */
 
+nav {
+    border: 0px solid #F2B705;
+    text-align: center;
+    margin: 1rem 0 0 0;
+}
+nav ul {
+    list-style-type: none;
+    border: 0px dotted #F2D479;
+    padding: 0;
+    margin: 0;
+}
+nav li {
+    border: 3px solid #F2D479;
+    width: 8.25rem;
+    background-color: #F2E8B3;
+    text-align: center;
+    margin-bottom: 0.7rem;
+    display: inline-block;
+}
 body {
     background-color: #F2E8B3;
     color: #565759;
@@ -11,11 +30,16 @@ hr {
 }
 h1 {
     border: 10px solid #F2B705;
+    margin: 0 0 1rem 0;
+    text-align: center;
 }
 blockquote {
     /* background-color: #F2D479; */
     border: 10px dotted #F2D479;
     font-weight: bold;
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
 }
 blockquote cite {
     color: #9FA3A6;
@@ -42,4 +66,8 @@ a:visited {
     font-weight: 300;
     text-decoration: none;
     color: #9FA3A6;
+}
+.floatright {
+    float: right;
+    margin: 0 0 1rem 1rem;
 }
