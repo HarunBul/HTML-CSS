@@ -1,3 +1,6 @@
 p {
     line-height: 1.3rem;
 }
+dt {
+    font-style: italic;
+}
